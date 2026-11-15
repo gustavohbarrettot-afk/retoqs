@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#08152d">
+<meta name="description" content="RETOQ’s Riscos & Mossas em Salvador: funilaria, pintura e polimento. Mande a foto do dano pelo WhatsApp e peça seu orçamento.">
+<title>RETOQ’s Riscos & Mossas | Funilaria, pintura e polimento em Salvador</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,700;1,800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js')</script>
+<style>
+:root{--navy:#08152d;--navy2:#0e2348;--ink:#050d1d;--or:#ff6a00;--or2:#ff8a1f;--tx:#e9eef7;--mu:#a9b6cc;--ln:rgba(255,255,255,.12);--hd:'Barlow Condensed','Arial Narrow',Impact,sans-serif;--bd:'Barlow',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*:before,*:after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(88px + env(safe-area-inset-top,0px));height:100%}
+body{margin:0;min-height:100%;font:400 1.05rem/1.65 var(--bd);color:var(--tx);background:radial-gradient(circle at 12% 8%,rgba(255,106,0,.13),transparent 26rem),radial-gradient(circle at 90% 30%,rgba(40,109,255,.10),transparent 28rem),var(--navy);overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:rgba(8,21,45,.92);z-index:30}
+img{max-width:100%;display:block}a{color:inherit}
+:focus-visible{outline:3px solid #ffa24d;outline-offset:3px}
+.wrap{width:min(calc(100% - 32px),1180px);margin-inline:auto}
+.hd{font-family:var(--hd);font-style:italic;font-weight:800;text-transform:uppercase;line-height:.92;margin:0}
+.bar{position:fixed;left:0;right:0;top:env(safe-area-inset-top,0px);height:4px;background:linear-gradient(90deg,var(--or),var(--or2));transform:scaleX(0);transform-origin:left;z-index:40}
+@supports(animation-timeline:scroll()){.bar{animation:grow linear both;animation-timeline:scroll(root)}}
+@keyframes grow{to{transform:scaleX(1)}}
+.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:12px;z-index:99;background:#fff;color:#111;padding:10px 14px;border-radius:8px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(8,21,45,.82);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--ln)}
+.nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand img{width:178px;height:auto}
+.menu{display:flex;gap:26px}.menu a{text-decoration:none;font-weight:500;font-size:.96rem;color:#d7e1f3;position:relative;padding:6px 0}
+.menu a:after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--or);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.menu a:hover:after{transform:scaleX(1)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;border-radius:999px;padding:14px 24px;font:600 1rem var(--bd);text-decoration:none;cursor:pointer;transition:transform .2s,filter .2s;background:linear-gradient(135deg,var(--or),var(--or2));color:#160a00}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.07)}
+.btn.o{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.22);color:#fff}
+.btn svg{width:20px;height:20px}
+.tg{display:none;background:none;border:0;color:#fff;font-size:1.7rem;padding:6px}
+/* hero */
+.hero{position:relative;padding:64px 0 74px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:40px;align-items:center;position:relative;z-index:2}
+.streaks i{position:absolute;right:-8%;height:26px;border-radius:2px;background:linear-gradient(90deg,transparent,var(--or));transform:skewX(-32deg);opacity:0;animation:str 1.2s cubic-bezier(.2,.8,.2,1) forwards}
+.streaks i:nth-child(1){top:14%;width:44%;animation-delay:.3s}.streaks i:nth-child(2){top:22%;width:30%;height:12px;animation-delay:.45s}
+.streaks i:nth-child(3){bottom:22%;width:38%;height:18px;animation-delay:.6s}.streaks i:nth-child(4){bottom:14%;width:24%;height:8px;animation-delay:.75s}
+@keyframes str{from{opacity:0;translate:120px 0}to{opacity:.55;translate:0 0}}
+.tag{display:inline-block;font:600 .9rem var(--bd);color:#ffb676;border-left:4px solid var(--or);padding-left:12px;margin-bottom:22px}
+h1{font-size:clamp(3.5rem,10.5vw,8.2rem)}
+.ln{display:block;overflow:hidden;padding:.04em 0}
+.ln>span{display:block;transform:translateY(110%);animation:up .95s cubic-bezier(.2,.8,.2,1) forwards;animation-delay:calc(var(--i)*.14s + .15s)}
+.ln.o{color:var(--or)}
+@keyframes up{to{transform:none}}
+.lead{max-width:520px;color:var(--mu);font-size:1.15rem;margin:26px 0 30px;opacity:0;animation:fi .8s .85s forwards}
+.acts{display:flex;gap:12px;flex-wrap:wrap;opacity:0;animation:fi .8s 1s forwards}
+@keyframes fi{to{opacity:1}}
+.hf{position:relative;opacity:0;animation:fi 1s .4s forwards}
+.hf:before{content:"";position:absolute;inset:18px -18px -18px 18px;background:linear-gradient(135deg,var(--or),var(--or2));clip-path:polygon(14% 0,100% 0,100% 100%,0 100%)}
+.pl{position:relative;overflow:hidden;background:var(--navy2)}
+.pl img{position:absolute;left:0;top:-8%;width:100%;height:116%;object-fit:cover}
+.hero-img{aspect-ratio:4/4.5;clip-path:polygon(14% 0,100% 0,100% 100%,0 100%)}
+.badge{position:absolute;left:-26px;top:22px;width:104px;height:104px;border-radius:50%;box-shadow:0 14px 34px rgba(0,0,0,.4);animation:fl 5s ease-in-out infinite;z-index:3}
+.chip{position:absolute;left:16px;bottom:-22px;z-index:3;background:rgba(8,21,45,.9);border:1px solid var(--ln);backdrop-filter:blur(10px);border-radius:14px;padding:12px 16px;font-size:.88rem;line-height:1.35}
+.chip b{display:block;color:#ffb676;font-weight:600}
+@keyframes fl{50%{transform:translateY(-10px)}}
+/* marquee */
+.mq{background:var(--or);color:#160a00;overflow:hidden;transform:rotate(-1.4deg);margin:10px -2% 0;border-block:3px solid var(--navy)}
+.mq div{display:flex;width:max-content;animation:mq 30s linear infinite}
+.mq span{font:italic 800 1.9rem/1 var(--hd);text-transform:uppercase;padding:14px 22px;white-space:nowrap}
+.mq span:nth-child(even){color:rgba(22,10,0,.45)}
+@keyframes mq{to{transform:translateX(-50%)}}
+section{padding:92px 0}
+.sh{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:40px}
+.sh h2{font-size:clamp(2.6rem,6vw,4.6rem);max-width:700px}.sh p{max-width:380px;color:var(--mu);margin:0}
+.eb{font:600 .92rem var(--bd);color:#ffb676;margin:0 0 14px;display:flex;align-items:center;gap:10px}.eb:before{content:"";width:34px;height:3px;background:var(--or);transform:skewX(-30deg)}
+/* serviços */
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.sv{position:relative;overflow:hidden;padding:30px 28px 34px;border:1px solid var(--ln);border-radius:6px 28px 6px 28px;background:rgba(255,255,255,.04);transition:transform .35s}
+.sv:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,var(--or),var(--or2));transform:translateY(101%);transition:transform .45s cubic-bezier(.2,.7,.2,1)}
+.sv>*{position:relative}
+.sv:hover{transform:translateY(-6px);color:#160a00}.sv:hover:before{transform:none}
+.ic{width:54px;height:54px;border-radius:14px;display:grid;place-items:center;background:rgba(255,106,0,.14);color:var(--or);margin-bottom:26px;transition:.35s}
+.ic svg{width:28px;height:28px}
+.sv:hover .ic{background:#160a00;color:var(--or)}
+.sv h3{font-size:2.5rem;margin-bottom:12px}
+.sv p{margin:0;color:var(--mu);transition:color .35s}.sv:hover p{color:#2b1400}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.chips span{border:1px solid var(--ln);border-radius:999px;padding:8px 18px;font-weight:500;color:#d7e1f3}
+/* passos */
+.steps{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:22px;counter-reset:s}
+.line{position:absolute;left:28px;right:28px;top:28px;height:3px;background:var(--ln)}.line i{display:block;height:100%;background:var(--or);transform-origin:left}
+.st{position:relative;counter-increment:s;padding-top:0}
+.st:before{content:counter(s);display:grid;place-items:center;width:58px;height:58px;border-radius:50%;background:var(--or);color:#160a00;font:italic 800 1.8rem var(--hd);margin-bottom:22px;position:relative;box-shadow:0 0 0 8px var(--navy)}
+.st h3{font-size:1.9rem;margin-bottom:8px}.st p{margin:0;color:var(--mu);font-size:.98rem}
+/* galeria */
+.gal{display:grid;grid-template-columns:1.4fr 1fr;gap:16px}
+.tile{position:relative;display:block;width:100%;padding:0;border:0;cursor:zoom-in;border-radius:6px 28px 6px 28px;color:#fff;text-align:left}
+.t1{aspect-ratio:4/3}.t2{grid-row:span 2}.t3{aspect-ratio:16/9}
+.tile:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 55%,rgba(5,13,29,.85));pointer-events:none}
+.tile span{position:absolute;left:20px;bottom:16px;z-index:2;font:600 .95rem var(--bd)}
+.tile:hover img{filter:brightness(1.1)}
+dialog{border:0;background:transparent;padding:0;max-width:94vw}dialog::backdrop{background:rgba(2,8,20,.88)}
+dialog img{max-width:94vw;max-height:84vh;border-radius:14px}
+dialog button{display:block;margin:14px auto 0}
+/* sobre */
+.sobre{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;align-items:center}
+.lg{position:relative;width:min(100%,380px);margin-inline:auto;aspect-ratio:1}
+.lg img{border-radius:50%}.lg:before{content:"";position:absolute;inset:-16px;border:2px dashed rgba(255,106,0,.55);border-radius:50%;animation:sp 40s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.sobre h2{font-size:clamp(2.6rem,5.4vw,4.2rem);margin-bottom:20px}.sobre p{color:var(--mu);max-width:560px}
+.nums{display:flex;gap:34px;flex-wrap:wrap;margin-top:30px;border-top:1px solid var(--ln);padding-top:26px}
+.nums b{display:block;font:italic 800 3.6rem/1 var(--hd);color:var(--or)}.nums span{font-size:.92rem;color:var(--mu)}
+/* faixa cta */
+.band{background:linear-gradient(135deg,var(--or),var(--or2));color:#160a00;clip-path:polygon(0 7%,100% 0,100% 93%,0 100%);padding:110px 0}
+.band .in{display:flex;justify-content:space-between;align-items:center;gap:30px;flex-wrap:wrap}
+.band h2{font-size:clamp(2.6rem,6.4vw,5.4rem);max-width:760px}
+.band .btn{background:#160a00;color:#fff;font-size:1.1rem;padding:18px 30px}
+/* contato */
+.ct{display:grid;grid-template-columns:1.1fr .9fr;gap:20px}
+.cd{padding:34px;border:1px solid var(--ln);border-radius:6px 28px 6px 28px;background:linear-gradient(150deg,#10234a,#0a1730)}
+.cd h3{font-size:2.3rem;margin-bottom:20px}
+label{display:block;font-weight:500;font-size:.92rem;margin-bottom:14px;color:#d7e1f3}
+input,select,textarea{display:block;width:100%;margin-top:6px;padding:13px 14px;border-radius:12px;border:1px solid var(--ln);background:rgba(5,13,29,.7);color:#fff;font:400 1rem var(--bd)}
+textarea{min-height:92px;resize:vertical}
+.rw{padding:14px 0;border-bottom:1px solid var(--ln)}.rw:last-of-type{border:0}
+.rw b{display:block;font-size:.85rem;color:#ffb676;font-weight:600}
+.rw a{text-decoration:none}.rw a:hover{text-decoration:underline}
+/* faq */
+.faq{max-width:860px;margin:auto}
+details{border-bottom:1px solid var(--ln)}
+summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px;padding:22px 4px;font:italic 800 1.7rem/1.1 var(--hd);text-transform:uppercase}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";color:var(--or);font-size:2rem;line-height:1;transition:transform .3s}
+details[open] summary:after{transform:rotate(135deg)}
+details p{margin:0;padding:0 4px 22px;color:var(--mu);max-width:680px}
+footer{padding:44px 0 90px;border-top:1px solid var(--ln);color:#8fa0bb;font-size:.9rem}
+.fg{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}.fg img{width:150px}
+.fl{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:25;width:60px;height:60px;border-radius:50%;display:grid;place-items:center;background:#25d366;color:#052b12;box-shadow:0 12px 30px rgba(0,0,0,.4)}
+.fl:before{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid #25d366;animation:pg 2.2s ease-out infinite}
+.fl svg{width:32px;height:32px}
+@keyframes pg{to{transform:scale(1.7);opacity:0}}
+/* reveal */
+.js .rv{opacity:0;transform:translateY(32px);transition:opacity .8s,transform .8s cubic-bezier(.2,.7,.2,1);transition-delay:calc(var(--d,0)*100ms)}
+.js .rv.in{opacity:1;transform:none}
+@media(max-width:900px){
+.menu{display:none;position:absolute;top:100%;left:16px;right:16px;flex-direction:column;gap:6px;padding:18px;background:#0a1935;border:1px solid var(--ln);border-radius:18px}.menu.open{display:flex}
+.tg{display:block}.nav>.btn{display:none}
+.hero-grid,.sobre,.ct,.gal{grid-template-columns:1fr}.g3{grid-template-columns:1fr}
+.steps{grid-template-columns:1fr 1fr;row-gap:36px}.line{display:none}
+.hero{padding-top:40px}.hf{margin:0 8px 30px 0}.badge{left:-6px;width:84px;height:84px}
+.t2{grid-row:auto;aspect-ratio:4/5}.sh{display:block}.sh p{margin-top:14px}section{padding:68px 0}
+}
+@media(max-width:560px){.steps{grid-template-columns:1fr}.acts .btn{width:100%}.brand img{width:150px}.band{padding:90px 0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.ln>span,.lead,.acts,.hf{opacity:1;transform:none}.streaks i{opacity:.55}.js .rv{opacity:1;transform:none}}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"AutoRepair","name":"RETOQ’s Riscos & Mossas","telephone":"+55 71 98672-4564","address":{"@type":"PostalAddress","streetAddress":"Av. Mário Leal Ferreira, 56","addressLocality":"Salvador","addressRegion":"BA","addressCountry":"BR"},"sameAs":["https://www.instagram.com/retoqs.oficial/"]}</script>
+</head>
+<body>
+<i class="bar" id="bar"></i>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<header><div class="wrap nav">
+<a class="brand" href="#inicio" aria-label="RETOQ’s, início"><img src="assets/logo-h.webp" width="560" height="186" alt="RETOQ’s Riscos & Mossas"></a>
+<button class="tg" id="tg" aria-label="Abrir menu" aria-expanded="false">☰</button>
+<nav class="menu" id="menu"><a href="#servicos">Serviços</a><a href="#como">Como funciona</a><a href="#oficina">A oficina</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a></nav>
+<a class="btn" data-wa="Olá, vim pelo site da RETOQ’s e quero um orçamento." href="https://wa.me/5571986724564" target="_blank" rel="noopener">Pedir orçamento</a>
+</div></header>
+
+<main id="conteudo">
+<section class="hero" id="inicio" style="padding-bottom:40px">
+<div class="streaks" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+<div class="wrap hero-grid">
+<div>
+<span class="tag">Funilaria, pintura e polimento em Salvador</span>
+<h1 class="hd"><span class="ln" style="--i:0"><span>Riscou?</span></span><span class="ln" style="--i:1"><span>Amassou?</span></span><span class="ln o" style="--i:2"><span>A gente resolve.</span></span></h1>
+<p class="lead">Mande a foto do risco ou da mossa pelo WhatsApp e a equipe da RETOQ’s avalia o que precisa ser feito no seu carro.</p>
+<div class="acts">
+<a class="btn" data-wa="Olá, quero enviar fotos do meu carro para orçamento." href="https://wa.me/5571986724564" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa"/></svg>Chamar no WhatsApp</a>
+<a class="btn o" href="#servicos">Ver serviços</a>
+</div></div>
+<div class="hf">
+<img class="badge" src="assets/logo-c-sm.webp" width="260" height="260" alt="">
+<div class="pl hero-img"><img src="assets/fachada.webp" width="1169" height="931" alt="Fachada da oficina RETOQ’s, com dois carros na garagem"></div>
+<div class="chip"><b>Av. Mário Leal Ferreira, 56</b>Salvador, BA</div>
+</div>
+</div>
+</section>
+
+<div class="mq" aria-hidden="true"><div>
+<span>Funilaria</span><span>Pintura</span><span>Polimento</span><span>Riscos</span><span>Mossas</span><span>Retoques</span><span>Acabamento</span>
+<span>Funilaria</span><span>Pintura</span><span>Polimento</span><span>Riscos</span><span>Mossas</span><span>Retoques</span><span>Acabamento</span>
+</div></div>
+
+<section id="servicos"><div class="wrap">
+<div class="sh rv"><div><p class="eb">O que fazemos</p><h2 class="hd">Três serviços para devolver o capricho do seu carro</h2></div><p>Cada dano é diferente. Por isso a avaliação vem antes do orçamento.</p></div>
+<div class="g3">
+<article class="sv rv" style="--d:0"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.2L3 17.8 6.2 21l6.3-6.3a4 4 0 0 0 5.2-5.4l-2.6 2.6-2.5-.6-.6-2.5z"/></svg></div><h3 class="hd">Funilaria</h3><p>Recuperação de amassados e peças danificadas, devolvendo a forma e o alinhamento da lataria.</p></article>
+<article class="sv rv" style="--d:1"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h7v14H7zM8 3h5v4H8zM17 6h.01M19.5 4h.01M19.5 8h.01M17 10h.01"/></svg></div><h3 class="hd">Pintura</h3><p>Acabamento para a peça reparada ficar no mesmo padrão do restante do veículo.</p></article>
+<article class="sv rv" style="--d:2"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r=".6"/></svg></div><h3 class="hd">Polimento</h3><p>Tratamento que recupera o brilho e a uniformidade da pintura e reduz marcas leves.</p></article>
+</div>
+<div class="chips rv"><span>Riscos</span><span>Mossas</span><span>Retoques</span><span>Acabamento</span></div>
+</div></section>
+
+<section id="como" style="padding-top:20px"><div class="wrap">
+<div class="sh rv"><div><p class="eb">Passo a passo</p><h2 class="hd">Do WhatsApp à entrega</h2></div><p>Você começa o atendimento sem sair de casa.</p></div>
+<div class="steps"><div class="line" aria-hidden="true"><i></i></div>
+<div class="st rv" style="--d:0"><h3 class="hd">Mande as fotos</h3><p>Envie fotos do dano, de perto e de longe, para o WhatsApp (71) 98672-4564.</p></div>
+<div class="st rv" style="--d:1"><h3 class="hd">Avaliação</h3><p>A equipe analisa o que precisa ser feito e passa o orçamento.</p></div>
+<div class="st rv" style="--d:2"><h3 class="hd">Reparo</h3><p>Funilaria, pintura e polimento conforme o caso do seu carro.</p></div>
+<div class="st rv" style="--d:3"><h3 class="hd">Entrega</h3><p>Você retira o carro com o acabamento revisado.</p></div>
+</div></div></section>
+
+<section id="oficina" style="padding-top:30px"><div class="wrap">
+<div class="sh rv"><div><p class="eb">A oficina</p><h2 class="hd">Aqui você encontra a RETOQ’s</h2></div><p>Toque em uma foto para ampliar.</p></div>
+<div class="gal">
+<button class="tile t1 pl rv" data-lb="Fachada da RETOQ’s"><img src="assets/fachada.webp" width="1169" height="931" loading="lazy" alt="Fachada da RETOQ’s com dois carros dentro da oficina"><span>Fachada, número 56</span></button>
+<button class="tile t2 pl rv" data-lb="Vista da rua"><img src="assets/rua.webp" width="900" height="1154" loading="lazy" alt="Vista da rua com a placa da RETOQ’s na entrada da oficina"><span>Vista da rua</span></button>
+<button class="tile t3 pl rv" data-lb="Cartão de visita"><img src="assets/cartao.webp" width="620" height="349" loading="lazy" alt="Cartão de visita da RETOQ’s com os serviços de funilaria, pintura e polimento"><span>Cartão de visita</span></button>
+</div>
+<dialog id="lb"><img alt=""><button class="btn o" id="lbx">Fechar</button></dialog>
+</div></section>
+
+<section id="sobre"><div class="wrap sobre">
+<div class="lg rv"><img src="assets/logo-c.webp" width="640" height="640" loading="lazy" alt="Logo circular da RETOQ’s Riscos & Mossas"></div>
+<div class="rv"><p class="eb">Sobre a RETOQ’s</p><h2 class="hd">Cuidado com cada detalhe da pintura</h2>
+<p>A RETOQ’s trabalha com riscos e mossas, funilaria, pintura e polimento em Salvador. A equipe reúne mais de 15 anos de experiência e atende direto pelo WhatsApp e pelo Instagram @retoqs.oficial.</p>
+<div class="nums"><div><b data-n="15" data-p="+">+15</b><span>anos de experiência</span></div><div><b data-n="3">3</b><span>serviços principais</span></div><div><b style="font-size:2.5rem;white-space:nowrap"><a href="https://wa.me/5571986724564" target="_blank" rel="noopener" style="text-decoration:none">(71) 98672-4564</a></b><span>chame no WhatsApp</span></div></div>
+</div></div></section>
+
+<div class="band"><div class="wrap in">
+<h2 class="hd">Mande a foto do risco e receba a avaliação.</h2>
+<a class="btn" data-wa="Olá, vim pelo site da RETOQ’s. Vou enviar a foto do meu carro." href="https://wa.me/5571986724564" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa"/></svg>Abrir WhatsApp</a>
+</div></div>
+
+<section id="contato"><div class="wrap">
+<div class="sh rv"><div><p class="eb">Contato</p><h2 class="hd">Peça seu orçamento</h2></div><p>Preencha e o WhatsApp abre com a mensagem pronta para a RETOQ’s.</p></div>
+<div class="ct">
+<div class="cd rv"><h3 class="hd">Mensagem rápida</h3>
+<form id="f">
+<label>Seu nome<input name="n" required autocomplete="name" placeholder="Como podemos te chamar?"></label>
+<label>Carro (modelo e ano)<input name="c" placeholder="Ex.: Hyundai Creta 2022"></label>
+<label>Serviço<select name="s"><option>Funilaria</option><option>Pintura</option><option>Polimento</option><option>Ainda não sei</option></select></label>
+<label>Conte o que aconteceu<textarea name="m" placeholder="Onde fica o dano e há quanto tempo?"></textarea></label>
+<button class="btn" type="submit"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa"/></svg>Enviar pelo WhatsApp</button>
+</form></div>
+<div class="cd rv" style="--d:1"><h3 class="hd">Onde estamos</h3>
+<div class="rw"><b>Endereço</b>Av. Mário Leal Ferreira, 56, Salvador, BA</div>
+<div class="rw"><b>WhatsApp</b><a href="https://wa.me/5571986724564" target="_blank" rel="noopener">(71) 98672-4564</a></div>
+<div class="rw"><b>Instagram</b><a href="https://www.instagram.com/retoqs.oficial/" target="_blank" rel="noopener">@retoqs.oficial</a></div>
+<div class="rw"><b>Horário</b>Confirme pelo WhatsApp</div>
+<div class="acts" style="opacity:1;animation:none;margin-top:22px"><a class="btn o" href="https://www.google.com/maps/search/?api=1&query=Av.+M%C3%A1rio+Leal+Ferreira+56+Salvador+BA" target="_blank" rel="noopener">Abrir no Maps</a><a class="btn o" href="https://www.instagram.com/retoqs.oficial/" target="_blank" rel="noopener">Ver Instagram</a></div>
+</div></div></div></section>
+
+<section style="padding-top:20px"><div class="wrap faq">
+<div class="sh rv"><div><p class="eb">Dúvidas</p><h2 class="hd">Antes de pedir o orçamento</h2></div></div>
+<details class="rv"><summary>Posso mandar a foto do dano pelo WhatsApp?</summary><p>Pode. É a forma mais rápida de começar. Envie fotos de perto e de longe da área danificada.</p></details>
+<details class="rv"><summary>Como funciona o orçamento?</summary><p>A equipe avalia o dano pelas fotos e confirma os detalhes com você. Em alguns casos pode ser preciso ver o carro pessoalmente.</p></details>
+<details class="rv"><summary>Quais serviços vocês fazem?</summary><p>Funilaria, pintura, polimento, reparo de riscos, mossas e retoques.</p></details>
+<details class="rv"><summary>Onde fica a oficina?</summary><p>Na Av. Mário Leal Ferreira, 56, em Salvador, BA. Use o botão “Abrir no Maps” na seção de contato.</p></details>
+<details class="rv"><summary>Qual o horário de atendimento?</summary><p>Os horários são confirmados direto pelo WhatsApp, no (71) 98672-4564.</p></details>
+</div></section>
+</main>
+
+<footer><div class="wrap fg"><img src="assets/logo-h.webp" width="560" height="186" loading="lazy" alt="RETOQ’s"><span>© <span id="y">2026</span> RETOQ’s Riscos & Mossas · Salvador, BA</span></div></footer>
+
+<a class="fl" data-wa="Olá, vim pelo site da RETOQ’s e quero um orçamento." href="https://wa.me/5571986724564" target="_blank" rel="noopener" aria-label="Falar com a RETOQ’s no WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa"/></svg></a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="wa" viewBox="0 0 24 24"><path d="M12 2a9.7 9.7 0 0 0-8.3 14.7L2.4 21.6l5-1.3A9.8 9.8 0 1 0 12 2Zm0 17.7a7.8 7.8 0 0 1-4-1.1l-.3-.2-3 .8.8-2.9-.2-.3A7.8 7.8 0 1 1 12 19.7Zm4.3-5.9c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.8.9-.1.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.4-.5.3-.5c.1-.2 0-.4 0-.5-.1-.1-.5-1.3-.8-1.8-.2-.5-.5-.4-.7-.4h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.4-.6 1.6-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.4-.3Z"/></symbol></svg>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],W='https://wa.me/5571986724564?text=',reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
+$$('[data-wa]').forEach(a=>a.href=W+encodeURIComponent(a.dataset.wa));
+$('#y').textContent=new Date().getFullYear();
+const tg=$('#tg'),mn=$('#menu');
+tg.onclick=()=>{const o=mn.classList.toggle('open');tg.setAttribute('aria-expanded',o);tg.textContent=o?'×':'☰'};
+mn.querySelectorAll('a').forEach(a=>a.onclick=()=>{mn.classList.remove('open');tg.textContent='☰';tg.setAttribute('aria-expanded',false)});
+if(!CSS.supports('animation-timeline','scroll()')){const b=$('#bar');addEventListener('scroll',()=>{b.style.transform='scaleX('+scrollY/Math.max(1,document.documentElement.scrollHeight-innerHeight)+')'},{passive:true})}
+const io='IntersectionObserver' in window?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12}):null;
+$$('.rv').forEach(el=>io?io.observe(el):el.classList.add('in'));
+const co=io&&!reduce?new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;co.unobserve(e.target);const el=e.target,n=+el.dataset.n,p=el.dataset.p||'',t0=performance.now();(function s(t){const k=Math.min(1,(t-t0)/1300);el.textContent=p+Math.round(n*(1-Math.pow(1-k,3)));if(k<1)requestAnimationFrame(s)})(t0)})):null;
+if(co)$$('[data-n]').forEach(el=>co.observe(el));
+if(window.gsap&&window.ScrollTrigger&&!reduce){gsap.registerPlugin(ScrollTrigger);
+$$('.pl img').forEach(im=>gsap.fromTo(im,{yPercent:-5},{yPercent:5,ease:'none',scrollTrigger:{trigger:im.parentElement,start:'top bottom',end:'bottom top',scrub:true}}));
+gsap.fromTo('.line i',{scaleX:0},{scaleX:1,ease:'none',scrollTrigger:{trigger:'.steps',start:'top 80%',end:'bottom 65%',scrub:true}});
+gsap.to('.streaks',{xPercent:14,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:true}})}
+const lb=$('#lb'),li=lb.querySelector('img');
+$$('[data-lb]').forEach(t=>t.onclick=()=>{li.src=t.querySelector('img').src;li.alt=t.dataset.lb;lb.showModal()});
+$('#lbx').onclick=()=>lb.close();lb.onclick=e=>{if(e.target===lb)lb.close()};
+$('#f').onsubmit=e=>{e.preventDefault();const d=new FormData(e.target),m='Olá, vim pelo site da RETOQ’s.\nNome: '+d.get('n')+'\nCarro: '+(d.get('c')||'não informado')+'\nServiço: '+d.get('s')+(d.get('m')?'\n'+d.get('m'):'');window.open(W+encodeURIComponent(m),'_blank','noopener')};
+</script>
+</body>
+</html>
